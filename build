@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ ! -f JLex/Main.class ]; do
+if [ ! -f JLex/Main.class ]; then
 	javac JLex/Main.java
 fi
 
