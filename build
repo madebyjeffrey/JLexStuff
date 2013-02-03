@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ ! -f JLex/Main.class ]; do
+	javac JLex/Main.java
+fi
+
+java JLex.Main $1.lex && javac $1.lex.java && java $1
+
